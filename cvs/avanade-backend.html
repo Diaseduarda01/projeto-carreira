@@ -6,6 +6,19 @@
 <title>Maria Eduarda Dias | Avanade Back End</title>
 <style>
 @page { size: A4; margin: 14mm 16mm; }
+.print-btn {
+  display: block;
+  margin: 0 0 14px auto;
+  background: #1a1a1a;
+  color: #fff;
+  border: none;
+  padding: 10px 18px;
+  font-size: 10.5pt;
+  font-family: inherit;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.print-btn:hover { background: #444; }
 * { box-sizing: border-box; }
 html, body {
   margin: 0;
@@ -90,6 +103,7 @@ h2 {
 .skills-block ul { margin: 4px 0 0 0; padding-left: 18px; }
 @media print {
   .page { padding: 0; }
+  .print-btn { display: none; }
 }
 @media screen and (max-width: 768px) {
   html, body {
@@ -112,12 +126,15 @@ h2 {
   .entry .school-info { font-weight: 600; color: #333; }
   h2 { margin-top: 18px; }
   .about { text-align: left; }
+  .print-btn { width: 100%; padding: 12px; font-size: 11pt; }
 }
 
 </style>
 </head>
 <body>
 <div class="page">
+
+  <button class="print-btn" type="button" onclick="window.print()">Salvar como PDF</button>
 
   <header>
     <h1>Maria Eduarda Dias</h1>
