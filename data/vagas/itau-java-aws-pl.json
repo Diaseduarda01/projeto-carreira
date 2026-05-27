@@ -1,0 +1,43 @@
+{
+  "hub": {
+    "empresa": "Itaú",
+    "vaga": "Engenharia de Software Java/AWS Pleno",
+    "nivel": "PL",
+    "match": 90,
+    "status": "ready"
+  },
+  "cv": {
+    "titulo": "Maria Eduarda Dias | Itaú Engenharia Java AWS",
+    "role": "Engenheira de Software | Java, Spring Boot, AWS, Microsserviços, APIs REST",
+    "sobre": "Engenheira de software com vivência em Java/Spring Boot e serviços AWS (Lambda, SQS, SNS), construindo APIs REST, microsserviços e integrações em nuvem com mensageria assíncrona em ambiente Scrum. 1 ano e 6 meses de experiência profissional na Sptech Consulting, complementada por trajetória técnica desde 2022 com mais de 52 projetos pessoais aplicando Clean Architecture, SOLID e Orientação a Objetos (OOP). Entregas com impacto mensurável: redução de 40% no tempo de disponibilização de dados via pipelines ETL e eliminação de dependência de API externa paga através de microsserviço Java próprio com Apache POI. Concluindo último ano de Tecnólogo em Análise e Desenvolvimento de Sistemas em 2026.",
+    "experiencias": [
+      {
+        "empresa": "São Paulo Tech School",
+        "local": "São Paulo, BR",
+        "cargo": "Monitora Acadêmica I - Lógica Computacional",
+        "periodo": "01/2026 - Atual",
+        "bullets": [
+          "Apoio ao professor na elaboração de listas, atividades avaliativas e provas, com suporte direto aos alunos em aula para resolução de exercícios e esclarecimento de dúvidas conceituais.",
+          "Desenvolvimento de comunicação didática adaptada a diferentes perfis de aprendizagem, estimulando o pensamento analítico e a autonomia dos estudantes na resolução de problemas."
+        ]
+      },
+      {
+        "empresa": "Sptech Consulting",
+        "local": "São Paulo, BR",
+        "cargo": "Desenvolvedora Back-end",
+        "periodo": "02/2025 - Atual",
+        "bullets": [
+          "Desenvolvimento e manutenção de APIs REST em Java e Spring Boot integradas a serviços AWS (Lambda, SQS, SNS), aplicando Clean Code, SOLID e Orientação a Objetos (OOP).",
+          "Construção de microsserviços, processos batch e mensageria assíncrona com RabbitMQ e filas em nuvem, além de pipelines ETL com Airflow integrando 3+ fontes de ERP, reduzindo em 40% o tempo de disponibilização de dados.",
+          "Proposta e desenvolvimento de microsserviço Java para geração de PPTX com Apache POI seguindo Clean Architecture, eliminando dependência de API externa paga.",
+          "Provisionamento de infraestrutura com Terraform e Docker, automação de CI/CD via GitHub Actions e monitoramento com Grafana e notificações automáticas.",
+          "Atuação em ambiente ágil (Scrum) com stack: Java, Spring Boot, AWS (Lambda, SQS, SNS), Terraform, Docker, RabbitMQ, MySQL, PostgreSQL, Airflow, GitHub Actions e Grafana."
+        ]
+      }
+    ],
+    "habilidades": [
+      "Java 17+, Spring Boot, AWS (Lambda, SQS, SNS), Terraform, Docker, Microsserviços, APIs REST, Orientação a Objetos (OOP), Clean Code, SOLID, Arquitetura Limpa, Arquitetura Hexagonal, RabbitMQ, PostgreSQL, MySQL, MongoDB, Redis, GitHub Actions, Jenkins, Grafana, Datadog, JUnit 5, Mockito, Apache POI, Airflow, Python, Node.js, Scrum.",
+      "Linguagens: Português e Inglês."
+    ]
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "hub": {
+    "empresa": "Avanade",
+    "vaga": "Desenvolvimento Fullstack Node.js / Agêntico",
+    "nivel": "JR/PL",
+    "match": 85,
+    "status": "ready"
+  },
+  "cv": {
+    "titulo": "Maria Eduarda Dias | Avanade Fullstack Node.js Agêntico",
+    "role": "Desenvolvedora Full Stack | Node.js, TypeScript, IA Aplicada, APIs REST",
+    "sobre": "Desenvolvedora Full Stack com vivência em Node.js, TypeScript, Java/Spring Boot e Python, construindo APIs REST e microsserviços em ambiente Scrum. Foco crescente em IA aplicada e desenvolvimento agêntico, com certificação Anthropic Claude Code in Action (2026) e IBM Certified AI Fundamentals (2025). 1 ano e 6 meses de experiência profissional na Sptech Consulting, complementada por trajetória técnica desde 2022 com mais de 52 projetos pessoais — vários explorando integração de LLMs e automação via agentes — aplicando Clean Architecture, SOLID e Orientação a Objetos (OOP). Entregas com impacto mensurável: redução de 40% no tempo de disponibilização de dados via pipelines ETL e eliminação de dependência de API externa paga através de microsserviço próprio. Concluindo último ano de Tecnólogo em Análise e Desenvolvimento de Sistemas em 2026.",
+    "experiencias": [
+      {
+        "empresa": "São Paulo Tech School",
+        "local": "São Paulo, BR",
+        "cargo": "Monitora Acadêmica I - Lógica Computacional",
+        "periodo": "01/2026 - Atual",
+        "bullets": [
+          "Apoio ao professor na elaboração de listas, atividades avaliativas e provas, com suporte direto aos alunos em aula para resolução de exercícios e esclarecimento de dúvidas conceituais.",
+          "Desenvolvimento de comunicação didática adaptada a diferentes perfis de aprendizagem, estimulando o pensamento analítico e a autonomia dos estudantes na resolução de problemas."
+        ]
+      },
+      {
+        "empresa": "Sptech Consulting",
+        "local": "São Paulo, BR",
+        "cargo": "Desenvolvedora Back-end",
+        "periodo": "02/2025 - Atual",
+        "bullets": [
+          "Desenvolvimento e manutenção de APIs REST em Java e Spring Boot, com aplicação contínua de Clean Code, SOLID e Orientação a Objetos (OOP).",
+          "Construção de microsserviços, pipelines ETL com Airflow, processos batch e mensageria assíncrona com RabbitMQ, integrando 3+ fontes de ERP em arquitetura Data Warehouse e reduzindo em 40% o tempo de disponibilização de dados.",
+          "Proposta e desenvolvimento de microsserviço próprio seguindo Clean Architecture, eliminando dependência de API externa paga e gerando autonomia total sobre customização.",
+          "Uso intensivo de Claude Code no fluxo de desenvolvimento para acelerar entregas, refatorações e automações, integrando IA ao processo de engenharia.",
+          "Atuação em ambiente ágil (Scrum) com stack: Java, Spring Boot, Python, Node.js, TypeScript, RabbitMQ, MySQL, PostgreSQL, Docker, GitHub Actions, Grafana, Airflow e Claude Code."
+        ]
+      }
+    ],
+    "habilidades": [
+      "Node.js, TypeScript, JavaScript, Inteligência Artificial, Claude Code, LLMs, Desenvolvimento Agêntico, APIs REST, Microsserviços, Orientação a Objetos (OOP), Clean Code, SOLID, Arquitetura Limpa, Arquitetura Hexagonal, AWS (Lambda, SQS, SNS), Docker, Terraform, RabbitMQ, PostgreSQL, MongoDB, Redis, MySQL, GitHub Actions, Grafana, Datadog, Java 17+, Spring Boot, Python, Scrum.",
+      "Linguagens: Português e Inglês."
+    ]
+  }
+}

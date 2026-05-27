@@ -1,0 +1,18 @@
+{
+  "hub": {
+    "empresa": "Accenture",
+    "vaga": "Desenvolvedor(a) Java/Spring Boot Pleno",
+    "nivel": "PL",
+    "match": 95,
+    "status": "ready"
+  },
+  "cv": {
+    "titulo": "Maria Eduarda Dias | Accenture Java Spring Boot",
+    "role": "Desenvolvedora Back-end | Java, Spring Boot, Microsserviços, APIs REST",
+    "sobre": "Desenvolvedora Back-end com vivência em Java, Spring Boot, Python e Node.js, construindo APIs REST, microsserviços, pipelines ETL e integrações com RabbitMQ em ambiente Scrum. 1 ano e 6 meses de experiência profissional na Sptech Consulting, complementada por trajetória técnica desde 2022 com mais de 52 projetos pessoais aplicando Clean Architecture, SOLID e Orientação a Objetos (OOP). Histórico de entregas com impacto mensurável: redução de 40% no tempo de disponibilização de dados via pipelines ETL e eliminação de dependência de API externa paga através de microsserviço Java próprio com Apache POI. Concluindo último ano de Tecnólogo em Análise e Desenvolvimento de Sistemas em 2026.",
+    "habilidades": [
+      "Java 17+, Spring Boot, Maven, Hibernate, JUnit 5, Mockito, APIs REST, Microsserviços, Orientação a Objetos (OOP), Clean Code, SOLID, Arquitetura Limpa, Arquitetura Hexagonal, Padrões de Projeto, RabbitMQ, MySQL, PostgreSQL, Docker, GitHub Actions, Jenkins, Grafana, Apache POI, Airflow, Python, Node.js, TypeScript, Scrum, Kanban, Jira.",
+      "Linguagens: Português e Inglês."
+    ]
+  }
+}

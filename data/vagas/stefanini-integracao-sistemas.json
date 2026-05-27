@@ -1,0 +1,43 @@
+{
+  "hub": {
+    "empresa": "Stefanini",
+    "vaga": "Analista Integração de Sistemas",
+    "nivel": "JR",
+    "match": 90,
+    "status": "ready"
+  },
+  "cv": {
+    "titulo": "Maria Eduarda Dias | Stefanini Integração de Sistemas",
+    "role": "Analista de Integração de Sistemas | APIs REST, RabbitMQ, ETL, Java, Python",
+    "sobre": "Desenvolvedora especializada em integração de sistemas, com vivência em construção de APIs REST, mensageria assíncrona com RabbitMQ, pipelines ETL e integração de múltiplas fontes de dados em ambiente Scrum. 1 ano e 6 meses de experiência profissional na Sptech Consulting integrando 3+ fontes de ERP em arquitetura Data Warehouse com Airflow, complementada por trajetória técnica desde 2022 com mais de 52 projetos pessoais aplicando Clean Architecture, SOLID e Orientação a Objetos (OOP). Entregas com impacto mensurável: redução de 40% no tempo de disponibilização de dados via pipelines ETL e eliminação de dependência de API externa paga através de microsserviço Java próprio. Concluindo último ano de Tecnólogo em Análise e Desenvolvimento de Sistemas em 2026.",
+    "experiencias": [
+      {
+        "empresa": "São Paulo Tech School",
+        "local": "São Paulo, BR",
+        "cargo": "Monitora Acadêmica I - Lógica Computacional",
+        "periodo": "01/2026 - Atual",
+        "bullets": [
+          "Apoio ao professor na elaboração de listas, atividades avaliativas e provas, com suporte direto aos alunos em aula para resolução de exercícios e esclarecimento de dúvidas conceituais.",
+          "Desenvolvimento de comunicação didática adaptada a diferentes perfis de aprendizagem, estimulando o pensamento analítico e a autonomia dos estudantes na resolução de problemas."
+        ]
+      },
+      {
+        "empresa": "Sptech Consulting",
+        "local": "São Paulo, BR",
+        "cargo": "Desenvolvedora Back-end",
+        "periodo": "02/2025 - Atual",
+        "bullets": [
+          "Integração de 3+ fontes de ERP em arquitetura Data Warehouse com pipelines ETL em Python/Airflow, reduzindo em 40% o tempo de disponibilização de dados entre sistemas.",
+          "Construção de microsserviços Java e mensageria assíncrona com RabbitMQ para integração de domínios de negócio, com processos batch e tratamento de filas DLQ.",
+          "Desenvolvimento e manutenção de APIs REST em Java e Spring Boot, criando contratos de integração entre sistemas internos e externos.",
+          "Implementação de monitoramento nas pipelines de integração com notificações automáticas no Microsoft Teams e abertura de cards de incidente, garantindo rastreabilidade e tratativa ágil de falhas.",
+          "Atuação em ambiente ágil (Scrum) com stack: Java, Spring Boot, Python, Airflow, RabbitMQ, MySQL, PostgreSQL, Docker, GitHub Actions, Grafana."
+        ]
+      }
+    ],
+    "habilidades": [
+      "APIs REST, RabbitMQ, ETL, Airflow, Java 17+, Spring Boot, Python, Microsserviços, Integração de Sistemas, Data Warehouse, Mensageria Assíncrona, Processos Batch, Orientação a Objetos (OOP), Clean Code, SOLID, Arquitetura Limpa, PostgreSQL, MySQL, MongoDB, Docker, GitHub Actions, Grafana, JUnit 5, Mockito, Node.js, TypeScript, Scrum.",
+      "Linguagens: Português e Inglês."
+    ]
+  }
+}

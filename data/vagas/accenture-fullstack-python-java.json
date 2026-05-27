@@ -1,0 +1,43 @@
+{
+  "hub": {
+    "empresa": "Accenture",
+    "vaga": "Desenvolvedor(a) Full Stack — Python | Java",
+    "nivel": "JR/PL",
+    "match": 72,
+    "status": "ready"
+  },
+  "cv": {
+    "titulo": "Maria Eduarda Dias | Accenture Full Stack Python Java",
+    "role": "Desenvolvedora Full Stack | Python, Java, Spring Boot, APIs REST, ETL",
+    "sobre": "Desenvolvedora com vivência em Python (pipelines ETL com Airflow, automações e processos batch) e Java/Spring Boot (APIs REST e microsserviços) em ambiente Scrum. 1 ano e 6 meses de experiência profissional na Sptech Consulting integrando 3+ fontes de ERP em arquitetura Data Warehouse com Airflow e construindo microsserviços Java, complementada por trajetória técnica desde 2022 com mais de 52 projetos pessoais aplicando Clean Architecture, SOLID e Orientação a Objetos (OOP). Entregas com impacto mensurável: redução de 40% no tempo de disponibilização de dados via pipelines ETL e eliminação de dependência de API externa paga através de microsserviço Java próprio. Concluindo último ano de Tecnólogo em Análise e Desenvolvimento de Sistemas em 2026.",
+    "experiencias": [
+      {
+        "empresa": "São Paulo Tech School",
+        "local": "São Paulo, BR",
+        "cargo": "Monitora Acadêmica I - Lógica Computacional",
+        "periodo": "01/2026 - Atual",
+        "bullets": [
+          "Apoio ao professor na elaboração de listas, atividades avaliativas e provas, com suporte direto aos alunos em aula para resolução de exercícios e esclarecimento de dúvidas conceituais.",
+          "Desenvolvimento de comunicação didática adaptada a diferentes perfis de aprendizagem, estimulando o pensamento analítico e a autonomia dos estudantes na resolução de problemas."
+        ]
+      },
+      {
+        "empresa": "Sptech Consulting",
+        "local": "São Paulo, BR",
+        "cargo": "Desenvolvedora Back-end",
+        "periodo": "02/2025 - Atual",
+        "bullets": [
+          "Construção de pipelines ETL em Python com Airflow integrando 3+ fontes de ERP em arquitetura Data Warehouse, reduzindo em 40% o tempo de disponibilização de dados para áreas de negócio.",
+          "Desenvolvimento e manutenção de APIs REST em Java e Spring Boot, incluindo criação de novas funcionalidades, sustentação e suporte em produção, aplicando Clean Code, SOLID e Orientação a Objetos (OOP).",
+          "Proposta e desenvolvimento de microsserviço Java para geração de PPTX com Apache POI seguindo Clean Architecture, eliminando dependência de API externa paga e gerando autonomia total sobre customização de templates.",
+          "Implementação de monitoramento nas pipelines de ETL com notificações automáticas no Microsoft Teams e abertura de cards de incidente, garantindo rastreabilidade e tratativa ágil de falhas.",
+          "Atuação em ambiente ágil (Scrum) com stack: Python, Java, Spring Boot, Airflow, RabbitMQ, MySQL, PostgreSQL, Docker, GitHub Actions, Grafana, JUnit 5 e Mockito."
+        ]
+      }
+    ],
+    "habilidades": [
+      "Python, Airflow, Pandas, ETL, Java 17+, Spring Boot, Maven, Hibernate, APIs REST, Microsserviços, Orientação a Objetos (OOP), Clean Code, SOLID, Arquitetura Limpa, JavaScript, TypeScript, HTML, CSS, RabbitMQ, PostgreSQL, MySQL, Docker, GitHub Actions, Grafana, Node.js, JUnit 5, Mockito, Scrum.",
+      "Linguagens: Português e Inglês."
+    ]
+  }
+}
