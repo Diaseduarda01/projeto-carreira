@@ -1,0 +1,14 @@
+{
+  "hub": {
+    "empresa": "Accenture",
+    "vaga": "Desenvolvedor(a) Backend Node.js — APIs e Microsserviços",
+    "nivel": "JR/PL",
+    "match": 90,
+    "status": "ready"
+  },
+  "cv": {
+    "titulo": "Maria Eduarda Dias | Accenture Backend Node.js",
+    "role": "Desenvolvedora Back-end | Node.js, TypeScript, APIs REST, Microsserviços",
+    "sobre": "Desenvolvedora Back-end com vivência em Node.js, TypeScript, Java, Spring Boot e Python, construindo APIs REST, microsserviços, pipelines ETL e integrações com RabbitMQ em ambiente Scrum. Histórico de entregas com impacto mensurável: redução de 40% no tempo de disponibilização de dados e eliminação de dependência de API externa via solução própria. Foco em Clean Architecture, SOLID e Orientação a Objetos (OOP). Cursando último ano de graduação, em busca de oportunidade como Desenvolvedora Backend Node.js."
+  }
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hub de CVs — {{nome}}</title>
+<style>
+{{styles}}
+</style>
+</head>
+<body>
+<div class="container">
+
+  <header class="top">
+    <h1>Hub de Currículos</h1>
+    <p>{{nome}} — CVs adaptados por vaga</p>
+  </header>
+
+  <div class="toolbar">
+    <button class="filter active" data-filter="all">Todas</button>
+    <button class="filter" data-filter="ready">Prontas</button>
+    <button class="filter" data-filter="pending">Pendentes</button>
+  </div>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Empresa</th>
+        <th>Vaga</th>
+        <th>Nível</th>
+        <th>Match</th>
+        <th>Status</th>
+        <th style="text-align:right">CV</th>
+      </tr>
+    </thead>
+    <tbody>
+{{rows}}
+    </tbody>
+  </table>
+
+  <p class="footer">
+    Dica: abra o CV no navegador e use <strong>Ctrl + P → Salvar como PDF</strong> para baixar.
+  </p>
+
+</div>
+
+<script>
+  const buttons = document.querySelectorAll('.filter');
+  const rows = document.querySelectorAll('tbody tr');
+  buttons.forEach(btn => {
+    btn.addEventListener('click', () => {
+      buttons.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      const filter = btn.dataset.filter;
+      rows.forEach(row => {
+        row.style.display = (filter === 'all' || row.dataset.status === filter) ? '' : 'none';
+      });
+    });
+  });
+</script>
+</body>
+</html>

@@ -1,0 +1,86 @@
+@page { size: A4; margin: 14mm 16mm; }
+* { box-sizing: border-box; }
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #ffffff;
+  color: #000000;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10.5pt;
+  line-height: 1.35;
+}
+.page {
+  max-width: 210mm;
+  margin: 0 auto;
+  padding: 14mm 16mm;
+}
+header { text-align: center; }
+header h1 {
+  font-size: 18pt;
+  font-weight: 400;
+  margin: 0 0 2px 0;
+}
+header .role {
+  font-size: 12pt;
+  margin-bottom: 6px;
+}
+header .contact, header .links {
+  font-size: 10pt;
+  margin: 2px 0;
+}
+header .links a {
+  color: #000;
+  text-decoration: underline;
+}
+h2 {
+  font-size: 11pt;
+  font-weight: 700;
+  margin: 14px 0 2px 0;
+  padding-bottom: 2px;
+  border-bottom: 1px solid #000;
+  letter-spacing: 0.3px;
+}
+.entry { margin-top: 8px; }
+.entry .row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.entry .company,
+.entry .school {
+  font-size: 8.5pt;
+  font-weight: 700;
+}
+.entry .location,
+.entry .school-info {
+  font-size: 8.5pt;
+  font-weight: 700;
+}
+.entry .position {
+  font-size: 11pt;
+  font-weight: 700;
+}
+.entry .date {
+  font-size: 10pt;
+  font-weight: 700;
+}
+.entry ul {
+  margin: 4px 0 0 0;
+  padding-left: 18px;
+}
+.entry li { margin-bottom: 2px; }
+.about {
+  text-align: justify;
+  margin-top: 6px;
+}
+.skills li, .edu-italic li { font-style: italic; }
+.cert-entry { margin-top: 8px; }
+.cert-entry .org { font-size: 8.5pt; font-weight: 700; }
+.cert-entry ul { margin: 2px 0 0 0; padding-left: 18px; }
+.cert-entry li { font-style: italic; }
+.skills-block { margin-top: 6px; }
+.skills-block .label { font-size: 8.5pt; font-weight: 700; }
+.skills-block ul { margin: 4px 0 0 0; padding-left: 18px; }
+@media print {
+  .page { padding: 0; }
+}

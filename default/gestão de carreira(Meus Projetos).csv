@@ -1,0 +1,62 @@
+﻿  MEUS PROJETOS ,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+#,Projeto,Tipo,Período,Stack Principal,S — Situação & Contexto,A — Ação (meu papel concreto),R — Resultado & Impacto,Bullet CV (30-50 palavras),Pitch SAR completo (entrevista)
+1,"Leo Vidros
+Sistema de Gestão",Acadêmico,"ago/2025 –
+jul/2026","Java · Spring Boot
+APIs REST · Microserviços
+RabbitMQ · MySQL
+Flyway · JWT · Docker","Empresa de vidraçaria com CNPJ ativo há +5 anos operava 100% com processos manuais e planilhas. Havia necessidade real de digitalizar gestão de pedidos, estoque, clientes e financeiro. Projeto integrador com equipe multidisciplinar e empresa real como cliente.","Atuei como desenvolvedora backend e liderança técnica: defini a arquitetura de microserviços, organizei backlog e demandas do time, desenvolvi APIs REST com Spring Boot, autenticação JWT, migrations com Flyway e mensageria com RabbitMQ. Conduzi decisões de design, revisões de código e alinhamentos com o cliente.",Sistema em fase final de entrega digitalizando 100% dos processos manuais. Rastreabilidade completa de pedidos e estoque. Primeiro projeto com liderança técnica real em contexto de cliente com necessidade de negócio concreta.,"Liderei desenvolvimento backend de sistema de gestão para empresa real, com microserviços Spring Boot, JWT e RabbitMQ — digitalizando 100% dos processos manuais de uma vidraçaria com +5 anos de mercado.","Num projeto integrador, nossa equipe foi desafiada a digitalizar uma empresa real de vidraçaria que operava 100% com planilhas. [S]
+
+Assumi a liderança técnica do backend: defini a arquitetura de microserviços, organizei as demandas do time e desenvolvi as APIs REST em Spring Boot com JWT, RabbitMQ e Flyway. [A]
+
+O resultado foi um sistema que digitalizou 100% dos processos da empresa, com rastreabilidade de ponta a ponta — e para mim, a primeira experiência real de liderança técnica com cliente real. [R]"
+2,"SaaS ERP
+Multi-tenant", Pessoal,"2025 –
+Atual","Java · Spring Boot
+Docker · PostgreSQL
+Multi-tenancy · DNS
+SMTP · SaaS Arch.","Pequenos negócios (salões, barbearias, clínicas estéticas, estúdios de tatuagem) não têm acesso a ERPs acessíveis e prontos para uso. Identifiquei a oportunidade de criar uma plataforma SaaS que entrega stack completamente isolada por cliente, com domínio .com.br e e-mail @empresa próprios, por plano contratado.","Estou projetando e desenvolvendo a plataforma: cada cliente contrata um plano e recebe um container Docker isolado com banco de dados dedicado, subdomínio configurado via DNS e e-mail corporativo. Desenhei a arquitetura de isolamento por tenant, modelo de planos e provisionamento automatizado de infraestrutura.","Projeto em desenvolvimento. Aprofundamento intenso em arquitetura multi-tenant, provisionamento via código, modelagem de produto SaaS e isolamento de dados — habilidades diretamente aplicáveis a qualquer produto de software escalável.","Desenvolvendo SaaS ERP multi-tenant para pequenos negócios: cada cliente recebe stack Docker isolada, domínio .com.br e e-mail corporativo por plano — aprofundando arquitetura de produto escalável e multi-tenancy.","Percebi que pequenos negócios como salões e barbearias não tinham acesso a um ERP acessível e pronto para uso. [S]
+
+Decidi construir um SaaS multi-tenant do zero: projetei a arquitetura de isolamento por tenant, onde cada cliente contrata um plano e recebe container Docker dedicado, banco próprio, domínio .com.br e e-mail corporativo provisionados automaticamente. [A]
+
+O projeto está em desenvolvimento e já me deu profundidade real em arquitetura multi-tenant e modelagem de produto SaaS — algo que poucas pessoas têm na prática. [R]"
+3,"ETL Spring Batch
+→ Airflow/Python",Profissional,2025,"Java · Spring Batch
+Python · Apache Airflow
+Pandas · PostgreSQL
+Docker","A empresa possuía pipelines ETL em Spring Batch integrando múltiplas fontes de ERP ao Data Warehouse interno. Com o crescimento do volume de dados, manutenção e evolução das pipelines tornaram-se custosas, lentas e difíceis de escalar.","Conduzi o refactor completo: migrei as pipelines de Spring Batch para DAGs em Apache Airflow com Python. Reescrevi todas as transformações usando Pandas (DataFrames), ganhando flexibilidade e legibilidade. Mantive compatibilidade com o DW existente durante migração gradual e sem downtime.","DAGs em produção rodando em ~10 segundos. Redução expressiva no tempo de manutenção, maior agilidade para evoluir transformações e onboarding mais rápido de novas fontes. Processo antes lento e manual virou rastreável, observável e fácil de manter.","Refatorei pipelines ETL de Spring Batch para Apache Airflow com Python/Pandas — DAGs em produção rodando em ~10s, com ganho expressivo em agilidade de manutenção e evolução.","As pipelines ETL da empresa estavam em Spring Batch e a manutenção havia se tornado cara e lenta com o crescimento do volume de dados. [S]
+
+Conduzi o refactor completo para Apache Airflow com Python, reescrevendo as transformações em Pandas. Fiz a migração gradual sem downtime, mantendo compatibilidade com o DW existente. [A]
+
+As DAGs foram para produção rodando em ~10 segundos — um ganho enorme de performance — e a manutenção ficou muito mais ágil. Onboarding de novas fontes que antes levava dias passou a levar horas. [R]"
+4,"Integração ERP
+→ Data Warehouse", Profissional,"2025 –
+Atual","Java · Spring Boot
+Python · Airflow
+PostgreSQL · MySQL
+ETL · RabbitMQ","Dados de mais de 3 fontes de ERP distintas viviam em silos, sem visão unificada para análise e tomada de decisão. A empresa precisava centralizar essas informações em um Data Warehouse para relatórios consolidados e BI.","Desenvolvi e mantive pipelines de integração conectando 3+ ERPs ao DW interno, com transformação, validação e carga dos dados. Implementei monitoramento com notificações automáticas no Microsoft Teams e abertura de cards de incidente para falhas — garantindo rastreabilidade e tratativa ágil.","Redução de 40% no tempo de disponibilização dos dados para análise. Rastreabilidade completa das pipelines com alertas em tempo real. Incidentes passaram a ser tratados em minutos, com histórico documentado.","Integrei 3+ fontes ERP em Data Warehouse com Airflow e Spring Boot — redução de 40% no tempo de disponibilização de dados, com monitoramento automático e alertas no Teams.","Os dados da empresa estavam espalhados em mais de 3 sistemas ERP diferentes, sem nenhuma visão consolidada para análise. [S]
+
+Desenvolvi pipelines de integração conectando todas essas fontes ao nosso DW, com validação e transformação dos dados. Também implementei monitoramento automático com alertas no Teams e abertura de cards de incidente para qualquer falha nas pipelines. [A]
+
+Resultado: 40% de redução no tempo de disponibilização dos dados e rastreabilidade completa — incidentes que antes levavam horas passaram a ser tratados em minutos. [R]"
+5,"Sustentação
+em Produção",Profissional,"2025 –
+Atual","Java · Spring Boot
+Grafana · Datadog
+Jira · Scrum
+GitHub Actions","APIs críticas em produção atendendo clientes reais com SLA definido. Incidentes ocorriam e precisavam de triagem, diagnóstico e resolução rápida — muitas vezes com o cliente aguardando e pressão de prazo.","Atuei em sustentação de APIs: atendimento de incidentes via Jira, diagnóstico com logs, Grafana e Datadog, hotfixes em produção e comunicação clara com o cliente durante a tratativa. Documentei root cause de cada incidente para evitar recorrência e melhorar a base de conhecimento do time.","Incidentes resolvidos com agilidade e rastreabilidade documentada. Desenvolvei visão de produção — entender como sistemas falham em escala real é diferencial técnico concreto. Maturidade para lidar com pressão, cliente e SLA simultaneamente.","Atuei em sustentação de APIs em produção: triagem de incidentes, diagnóstico com Grafana/Datadog, hotfixes e comunicação ao cliente com foco em SLA e rastreabilidade.","Fazia parte da minha rotina atender APIs em produção com SLA definido e clientes aguardando resolução — às vezes sob pressão real. [S]
+
+Fazia triagem dos incidentes via Jira, diagnosticava com Grafana e Datadog, aplicava hotfixes e mantinha comunicação clara com o cliente durante todo o processo. Documentei o root cause de cada incidente para evitar recorrência. [A]
+
+Isso me deu uma visão que poucos devs juniores têm: entender como sistemas falham em produção real, e ter maturidade para agir com calma sob pressão e com SLA. [R]"
+6,"Microserviço
+Geração de PPTX", Profissional,2025,"Java · Spring Boot
+Apache POI
+Clean Architecture
+REST API · Docker","A empresa dependia de uma API externa paga para geração de apresentações PPTX. O custo era alto, o suporte era indisponível e a manutenção era difícil. Cada relatório gerado aumentava o custo operacional sem nenhum controle interno.","Pesquisei e avaliei as bibliotecas disponíveis para manipulação de PPTX em Java. Montei a ideação do microserviço, apresentei a proposta ao time e obtive aprovação. Desenvolvi a solução do zero pensando em escalabilidade, segurança e performance, usando Apache POI com templates parametrizáveis via Spring Boot.",Corte total do custo com a API externa. Manutenção 100% interna com suporte próprio. Performance superior à solução anterior. Templates passaram a ser customizáveis sem limitações — funcionalidade que antes era restrita virou diferencial do produto.,"Propus e desenvolvi microserviço Java para geração de PPTX com Apache POI, eliminando dependência de API externa paga — redução de custo, ganho de performance e personalização ilimitada de templates.","A empresa pagava por uma API externa para gerar apresentações PPTX, mas o suporte era indisponível e o custo crescia a cada relatório gerado. [S]
+
+Fui eu quem pesquisou as alternativas, montei a proposta do microserviço e apresentei ao time. Com aprovação, desenvolvi do zero usando Apache POI com Spring Boot, pensando em escalabilidade e personalização de templates. [A]
+
+Resultado: zeramos o custo com a API externa, ganhamos autonomia total na manutenção e a customização de templates — antes limitada pela API — virou um diferencial do produto. [R]"

@@ -1,0 +1,348 @@
+﻿  CONTROLE DE CANDIDATURAS,,,,,,,,,,
+,,,,,,,,,,
+Nome da Vaga,Nivél,Empresa,Link,Código,Requisitos Técnicos,% Match,Status,"Data
+Candidatura","PDF Currículo
+(Link)",Observações
+Desenvolvedor (a) Full Stack - Java | Angular,JR/PL,Accenture,https://www.accenture.com/br-pt/careers/jobdetails?id=R00319836_pt-br&title=Desenvolvedor+%28a%29+Full+Stack+-+Java+%7C+Angular,R00319836,"Obrigatórios
+
+Java 8+/11+/17+ + Spring Boot
+Angular (recente) + TypeScript + HTML5 + CSS3
+APIs RESTful
+Microsserviços + padrões de design
+MySQL, PostgreSQL, MongoDB, Redis
+Kafka / RabbitMQ
+Git + CI/CD
+Docker (+ Kubernetes desejável)
+JUnit, Mockito, Jasmine/Karma
+OAuth2 + JWT
+
+Diferenciais
+
+AWS / Azure / GCP
+EDA (arquitetura orientada a eventos)
+Observabilidade (monitoring, tracing, logging)
+Scrum / Kanban
+Alta volumetria / sistemas críticos",75%,,,,"A vaga diz ""modelo remoto negociável, a depender da localidade"", acredito que aceite candidatura de SP"
+Desenvolvedor (a) Full Stack - Python | Java,JR/PL,Accenture,https://www.accenture.com/br-pt/careers/jobdetails?id=R00280745_pt-br&title=Desenvolvedor+%28a%29+Full+Stack+-+Python+%7C+Java,R00280745,"Python avançado (estruturas, classes, tipagem, manipulação de dados)
+Java 8+/21+
+HTML5, CSS3
+APIs REST (FastAPI ou Flask)
+Microsserviços + Docker + Kubernetes
+NLP / processamento de texto
+MySQL, PostgreSQL, Redis, MongoDB
+RabbitMQ / Kafka
+Pytest / unittest
+Prometheus, Grafana, ELK
+Git + CI/CD
+OAuth2 / JWT / segurança de APIs
+gRPC
+
+Diferencial
+
+IA generativa (GPT, OpenAI API, Azure AI)
+
+",72%,,,,"A vaga diz ""modelo remoto negociável, a depender da localidade"", acredito que aceite candidatura de SP"
+Desenvolvedor(a) Backend Node.js | APIs e Microsserviços,JR/PL,Accenture,https://www.accenture.com/br-pt/careers/jobdetails?id=R00325522_pt-br&title=Desenvolvedor%28a%29+Backend+Node.js+%7C+APIs+e+Microsservi%C3%A7os,R00325522,"Obrigatórios
+
+Node.js + TypeScript
+PostgreSQL
+AWS (Cloud)
+APIs REST
+Microsserviços
+Git
+Clean Code / SOLID
+OOP (Orientação a Objetos)
+Metodologias ágeis
+Backend produtivo / sustentação
+
+Diferenciais
+
+JavaScript/TypeScript avançado
+Sistemas distribuídos
+CI/CD
+Gerenciamento de release/config
+Debugging em produção
+Cloud (AWS, Azure, GCP)
+Arquiteturas escaláveis",90%,,,,Gostei muito da vaga e da empresa
+Desenvolvedor (a) Java/Spring boot Pleno ,PL,Accenture,https://www.accenture.com/br-pt/careers/jobdetails?id=R00330499_pt-br&title=Desenvolvedor+%28a%29+Java%2FSpring+boot+Pleno+e+S%C3%AAnior+-+H%C3%ADbrido,R00330499,"Java + Spring Boot
+APIs REST
+Git
+Bancos relacionais + SQL
+Testes + documentação técnica
+Boas práticas / Clean Code
+Microsserviços
+Performance + segurança + escalabilidade
+Code review / decisões de arquitetura",95%,,,,Gostei muito da vaga e da empresa
+Analista Integração de Sistemas,JR,Stefanini,https://stefanini.gupy.io/jobs/11345711?jobBoardSource=gupy_public_page,--,"Obrigatórios
+
+APIs (criação/consumo)
+XML
+Postman
+MySQL Workbench
+De-para entre sistemas
+Integração de sistemas
+Atendimento/comunicação com clientes
+Resolução de problemas / capacidade analítica",90%,,,,faz sentido com o que atuo atualmente
+Desenvolvedor Java Pleno,PL,Stefanini,https://stefanini.gupy.io/jobs/11252387?jobBoardSource=gupy_public_page,-,"Obrigatórios
+
+Java 16/25 + Spring Boot
+Angular REST
+Eclipse
+Maven
+Wildfly / Tomcat
+Oracle (banco)
+Scrum / Kanban
+Resolução de problemas
+Comunicação / trabalho em equipe
+
+Diferenciais
+
+Outras linguagens
+Certificações",80%,,,,
+"Desenvolvedor full stack (Java/Angular) 
+",JR/PL,Stefanini,https://www.linkedin.com/jobs/search/?currentJobId=4416069281&f_C=8147%2C28659370&geoId=92000000&origin=COMPANY_PAGE_JOBS_CLUSTER_EXPANSION&originToLandingJobPostings=4402031070%2C4419123518%2C4416966883%2C4418015703%2C4410772394%2C4411837161%2C4416069281%2C4418005450%2C4414286592&trk=d_flagship3_company_posts,-,"Java 11/21 + Spring Boot
+Microsserviços + arquitetura orientada a eventos (EDA)
+APIs REST
+Kafka, RabbitMQ, Pub/Sub, IBM MQ
+MySQL, Oracle, SQL Server, MongoDB
+GCP + Docker + CI/CD
+JUnit + SonarQube
+Apache Camel
+Sistemas financeiros (PIX, cartões, banco, seguradora)
+Angular ou React",70%,,,,não tem nível do perfil esperado nesta vaga
+"DESENVOLVEDOR FULL STACK JR (Java+Angular) 
+",JR,Stefanini,https://www.linkedin.com/jobs/search/?currentJobId=4418005450&f_C=8147%2C28659370&geoId=92000000&origin=COMPANY_PAGE_JOBS_CLUSTER_EXPANSION&originToLandingJobPostings=4402031070%2C4419123518%2C4416966883%2C4418015703%2C4410772394%2C4411837161%2C4416069281%2C4418005450%2C4414286592&trk=d_flagship3_company_posts,-,"AngularJS + Angular 10+ (básico/intermediário)
+TypeScript + JavaScript
+Consumo de APIs REST
+Java 8/11 + Spring Boot (básico/intermediário)
+MySQL / SQL Server / Oracle
+RabbitMQ ou Kafka (conceitual)
+Git
+CI/CD (conceitos)
+JUnit + SonarQube (básico)
+Componentização / estrutura de páginas",85%,,,,"gosto de trabalhar com multiplas stacks, full stack faz sentido para mim no contexto que n envolva ux/ui e nem desing"
+"Pessoa Desenvolvedora DevSecOps JR 
+",JR,Bradesco,https://www.linkedin.com/jobs/search/?currentJobId=4413112074&f_C=162778&originToLandingJobPostings=4413112074%2C4409028512%2C4380361377%2C4378023781&trk=d_flagship3_company_posts,-,"Obrigatórios
+
+GitHub / versionamento
+CI/CD (pipelines, automação)
+Integração e entrega contínua
+Plataforma baixa (baixo nível / on-premise)
+Perfil colaborativo / aprendizado contínuo
+Ensino superior em TI
+
+Diferenciais
+
+Mainframe
+DevSecOps
+Scripts e automação (Shell, Python)
+Modernização de legados",82%,Inscrita,,,"foco em devops, um interesse genuino que tenho e estudo fortemente em compdist e em casa"
+Engenharia de Software Java/AWS Pleno,PL,Itaú,https://www.linkedin.com/jobs/search/?currentJobId=4415235457&f_C=333329&originToLandingJobPostings=4415235457%2C4417477226%2C4411835606%2C4399848499&trk=d_flagship3_company_posts,-,"Obrigatórios
+
+Java + Spring Boot
+AWS (Cloud Pública)
+REST API
+SQL
+Docker
+Kubernetes
+DevOps
+Design Patterns
+SRE / Confiabilidade
+Análise de requisitos / desenho de soluções
+Build & Run (sustentação)
+
+Soft skills exigidas
+
+Atitude de dono, proatividade, resiliência, foco em resultados, comunicação, trabalho em equipe
+
+",90%,,,,back end + cloud  + empresa dos sonhos = sonho!!!
+Engenheiro de Software PL | Java,PL,Evertec,https://www.linkedin.com/jobs/search/?currentJobId=4416191126&f_PP=104746682&geoId=92000000&origin=JOB_SEARCH_PAGE_JOB_FILTER&sortBy=R&spellCorrectionEnabled=true,-,"Obrigatórios
+
+Java (sistemas legados)
+MS SQL Server (scripts, melhorias, correções)
+Testes unitários e de integração
+Clean Code / documentação
+Sistemas legados / evolução de software
+Times ágeis
+Ensino superior
+
+Diferenciais
+
+Mercado financeiro
+Eclipse / IntelliJ
+Angular",78%,,,,top
+Engenheiro de Software PL - Fullstack Java e Angular,PL,Evertec,https://www.linkedin.com/jobs/search-results/?currentJobId=4403667900&eBP=NON_CHARGEABLE_CHANNEL&refId=4ElfQ%2B6P4B%2FLn4akjHQuGA%3D%3D&trackingId=YqF8NeKnGkM1buGpTswXfg%3D%3D&keywords=evertec&origin=BLENDED_SEARCH_RESULT_NAVIGATION_SEE_ALL&originToLandingJobPostings=4393800226%2C4415696585%2C4387744679,-,"Angular (componentes, serviços, formulários reativos, RxJS)
+Microfrontends + lazy loading Angular
+APIs RESTful + OAuth2 + JWT
+Java + Spring Boot
+Jest (testes frontend)
+Git
+Desenvolvimento ágil
+
+Diferenciais
+
+CI/CD
+Docker + Kubernetes
+Scrum / Kanban",65%,,,,foco em frontend mas n seria um problema já que n envolve uix/ux e desing
+Engenheiro de Software júnior,JR,Evertec,https://www.linkedin.com/jobs/search-results/?currentJobId=4414122377&eBP=NON_CHARGEABLE_CHANNEL&refId=4ElfQ%2B6P4B%2FLn4akjHQuGA%3D%3D&trackingId=no9QB%2BCV7NYM%2BoqcjfA8EQ%3D%3D&keywords=evertec&origin=BLENDED_SEARCH_RESULT_NAVIGATION_SEE_ALL&originToLandingJobPostings=4393800226%2C4415696585%2C4387744679,-,"Obrigatórios
+
+SQL Server (procedures, INSERT/DELETE/UPDATE, troubleshooting)
+Sustentação / resolução de incidentes em produção
+Code review
+Documentação técnica
+Análise de bugs / atendimento N3
+Graduação em TI
+
+Diferenciais
+
+.NET + C#
+Previdência Fechada (domínio de negócio)",68%,,,,"desafio seria stack c# e .net mas n me prendo a stack, a lógica é a mesma"
+"Desenvolvedor Full Stack Pl |Remoto 
+",PL,Solutis,https://www.linkedin.com/jobs/search/?currentJobId=4377541499&f_C=1209610&originToLandingJobPostings=4377541499%2C4416400474&trk=d_flagship3_company_posts,-,"Obrigatórios
+
+React (frontend)
+Java, Python, JavaScript, Node.js, PHP
+SQL + NoSQL
+AWS + Azure
+Docker + Kubernetes
+CI/CD (Jenkins / Harness)
+Microsserviços + APIs REST
+Code review / Clean Code
+Inglês avançado
+Graduação em TI
+
+Diferenciais
+
+Terraform (IaC)
+GCP
+Harness",90%,,,,gosto muito da empresa e a vaga se encaixa no meu perfil
+Analista de Desenvolvimento Back-end Java,JR/PL,Vericode,https://www.linkedin.com/jobs/search/?currentJobId=4409994992&f_C=25054412&geoId=92000000&origin=COMPANY_PAGE_JOBS_CLUSTER_EXPANSION&originToLandingJobPostings=4413835882%2C4402166678%2C4415985554%2C4410317278%2C4413335766%2C4409994992%2C4408949083%2C4409386265%2C4409381372&trk=d_flagship3_company,-,"APIs + backend (Arranjo de Pagamentos / PIX)
+Monitoramento de alertas em produção
+Tratamento de incidentes / análise de causa raiz
+Sustentação + desenvolvimento (modelo rodízio)
+Comunicação de incidentes / registros
+Redução de dívida técnica
+Arquitetura segura e escalável
+Plantão diurno (08h–20h)",88%,,,,"gostei bastente do desafio da vaga, faz sentido com meu perfil"
+"Profissional em Desenvolvimento de Software Fullstack Júnior (Java)
+",JR,Radix,https://www.linkedin.com/jobs/search/?currentJobId=4413641874&f_C=906658&originToLandingJobPostings=4413641874%2C4414019949%2C4413649764%2C4414343723&trk=d_flagship3_company,-,"Obrigatórios
+
+Java + Spring Boot + Spring Batch
+HTML, CSS, JavaScript (ou React)
+PostgreSQL, MySQL, MongoDB
+Git + CI/CD (GitHub Actions, Jenkins)
+Docker + microsserviços
+Clean Code + arquitetura limpa
+Design patterns + ciclo de vida
+Metodologias ágeis
+
+Diferenciais
+
+Angular ou React
+Spring Data / Spring Batch avançado
+Kafka / RabbitMQ
+AWS / Azure / GCP
+Inglês intermediário
+Graduação TI",95%,,,,desafio bem semelhante com minha expêriencia atual
+Software Engineer II - Pleno,PL,Dock,https://www.linkedin.com/jobs/search/?currentJobId=4385614913&f_C=40823799&geoId=92000000&origin=COMPANY_PAGE_JOBS_CLUSTER_EXPANSION&originToLandingJobPostings=4385614913%2C4406250228%2C4411906112%2C4415993139%2C4415739071%2C4414774840%2C4414752506%2C4325299828%2C4319378462&trk=d_flagship3_company_posts,-,"Obrigatórios
+
++2 anos de experiência
+Múltiplas linguagens
+PostgreSQL
+DynamoDB, MongoDB, Redis
+Clean Code / SOLID / DRY / KISS
+Testes unitários
+Git Flow
+Trabalho remoto 100%
+Raciocínio lógico / autonomia
+
+Diferenciais
+
+Golang
+Java
+AWS
+APIs REST
+Mensageria (produtor/consumidor)
+Meios de pagamento / antifraude
+DevOps / IaC
+Metodologias ágeis
+
+",85%,,,,"curti bastante, gosto da empresa e por mais que eu n tenha expêriencia empresarial com pix, estou fazendo um projeto pessoal utilizando abacate pay"
+Desenvolvedor(a) Full Stack | Angular & Spring Boot,JR/PL,Avanade,https://www.avanade.com/pt-br/career/job-details/R00319769,-,"Obrigatórios
+
+Spring Boot + Angular
+APIs REST + GraphQL (introdução)
+PostgreSQL, MySQL, SQL Server
+Azure DevOps (versionamento + pipelines)
+Testes unitários
+HTML, CSS, JavaScript ES6+
+TypeScript
+Context API / Redux (básico)
+Styled Components / Tailwind CSS
+
+Diferenciais
+
+Azure DevOps
+Cloud
+Arquitetura de software / segurança
+Certificações
+Inglês técnico/intermediário",92%,,,,curti demais
+"Desenvolvedor(a) Back End 
+
+",JR/PL,Avanade,https://www.linkedin.com/jobs/view/4414975733/,-,"Obrigatórios
+
+Java + Spring Boot
+SQL Server + Redis
+Microsserviços + arquitetura hexagonal
+Design de APIs
+Testes unitários + TDD
+Análise de performance
+Design patterns (Repository, Service)
+Git / GitHub avançado
+Azure Cloud + OpenShift
+DevOps + CI/CD",92%,,,,
+Desenvolvimento Fullstack NODE JS / Agêntico,JR/PL,Avanade,https://www.avanade.com/pt-br/career/job-details/R00331624,-,"Obrigatórios
+
+React.js
+Node.js
+Desenvolvimento agêntico / Agent Context Engineering
+Aplicações escaláveis + testes
+Fullstack
+Colaboração / perfil proativo",85%,,,,unico gap seria desenvolvimento de agentes mas ja participei de palestras e tenho intesse em aprender
+Pessoa Desenvolvedora Backend Pleno Kotlin/Java | Core Business Products Eng,PL,C6 Bank,https://job-boards.greenhouse.io/c6bank/jobs/4696663005,-,"Obrigatórios
+
+Kotlin ou Java + Spring Boot
+Microsserviços
+Testes unitários + integração
+PostgreSQL + MongoDB + Cassandra
+Kafka + SQS + SNS
+Observabilidade
+AWS
+Segurança de APIs
+IaC (Infraestrutura como código)
+Event-driven / fluxos assíncronos
+Fluxos transacionais de alta criticidade
+Deploy (Homologação + Produção)
+Agilidade / melhoria contínua",83%,,,,desafio da vaga mt intesserante e empresa com cultura mt boa
+Desenvolvedor Fullstack Pleno (Java e Angular) - Vaga Afirmativas para Mulheres,PL,CI&T,https://ciandt.com/br/pt-br/carreiras/oportunidades/candidate-se?opportunity=a8b787c2-168c-4a47-8013-e0466de712ac,[Job - 29324],"Obrigatórios
+
+Java 17/11 + Spring Boot 3
+Angular 17/8
+JavaScript / TypeScript
+Design patterns / OOP / SOLID / KISS / DRY / YAGNI
+Testes automatizados
+Git
+Banco de dados
+APIs RESTful
+Scrum
+
+Diferenciais
+
+Docker + Kubernetes
+Lombok
+WebFlux
+DDD
+Kafka
+Arquitetura hexagonal
+Node.js",82%,,,,gostei bastante
+,,,,,,,,,,

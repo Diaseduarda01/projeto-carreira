@@ -1,0 +1,109 @@
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f5f5f5;
+  color: #1a1a1a;
+}
+.container {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 40px 20px 80px;
+}
+header.top {
+  margin-bottom: 24px;
+}
+header.top h1 {
+  margin: 0 0 4px;
+  font-size: 24pt;
+  font-weight: 400;
+}
+header.top p {
+  margin: 0;
+  color: #555;
+  font-size: 11pt;
+}
+.toolbar {
+  display: flex;
+  gap: 8px;
+  margin: 18px 0 8px;
+  flex-wrap: wrap;
+}
+.toolbar button {
+  background: #fff;
+  border: 1px solid #ccc;
+  padding: 6px 12px;
+  font-size: 10pt;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.toolbar button.active {
+  background: #1a1a1a;
+  color: #fff;
+  border-color: #1a1a1a;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+  border-radius: 6px;
+  overflow: hidden;
+}
+thead {
+  background: #1a1a1a;
+  color: #fff;
+}
+th, td {
+  text-align: left;
+  padding: 10px 12px;
+  border-bottom: 1px solid #eee;
+  font-size: 10.5pt;
+  vertical-align: middle;
+}
+th { font-weight: 700; font-size: 10pt; }
+tbody tr:hover { background: #fafafa; }
+.level {
+  display: inline-block;
+  padding: 2px 8px;
+  border: 1px solid #999;
+  border-radius: 10px;
+  font-size: 9pt;
+  color: #333;
+}
+.match {
+  font-weight: 700;
+}
+.match.high { color: #0a7d2e; }
+.match.mid { color: #b07000; }
+.match.low { color: #999; }
+.action a, .action span {
+  display: inline-block;
+  padding: 6px 12px;
+  border-radius: 4px;
+  font-size: 10pt;
+  text-decoration: none;
+}
+.action a {
+  background: #1a1a1a;
+  color: #fff;
+}
+.action a:hover { background: #444; }
+.action span.pending {
+  background: #eee;
+  color: #888;
+  cursor: not-allowed;
+}
+.status-tag {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 10px;
+  font-size: 9pt;
+}
+.status-tag.ready { background: #e8f5ec; color: #0a7d2e; }
+.status-tag.pending { background: #f3f3f3; color: #888; }
+.footer {
+  margin-top: 24px;
+  font-size: 9.5pt;
+  color: #777;
+}

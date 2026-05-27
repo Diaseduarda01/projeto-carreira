@@ -1,0 +1,70 @@
+{
+  "nome": "Maria Eduarda Dias",
+  "contato": {
+    "localidade": "Brasil, São Paulo",
+    "email": "m.eduardadasilvadias4@gmail.com",
+    "telefone": "(11) 96792-2547"
+  },
+  "links": [
+    { "url": "https://eduarda-dias-portifolio.vercel.app/", "label": "Portfólio" },
+    { "url": "https://github.com/diaseduarda01", "label": "GitHub" },
+    { "url": "https://www.linkedin.com/in/eduarda-dias-723a7820b/", "label": "Linkedin" }
+  ],
+  "experiencias": [
+    {
+      "empresa": "São Paulo Tech School",
+      "local": "São Paulo, BR",
+      "cargo": "Monitora Acadêmica I - Lógica Computacional",
+      "periodo": "01/2026 - Atual",
+      "bullets": [
+        "Apoio ao professor na elaboração de listas, atividades avaliativas e provas, com suporte direto aos alunos em aula para resolução de exercícios e esclarecimento de dúvidas conceituais.",
+        "Desenvolvimento de comunicação didática adaptada a diferentes perfis de aprendizagem, estimulando o pensamento analítico e a autonomia dos estudantes na resolução de problemas."
+      ]
+    },
+    {
+      "empresa": "Sptech Consulting",
+      "local": "São Paulo, BR",
+      "cargo": "Desenvolvedora Back-end",
+      "periodo": "02/2025 - Atual",
+      "bullets": [
+        "Desenvolvimento e manutenção de APIs REST em Java e Spring Boot, incluindo criação de novas funcionalidades, sustentação e suporte em produção, aplicando Clean Code, SOLID e Orientação a Objetos (OOP).",
+        "Construção de microsserviços, pipelines ETL, processos batch e mensageria assíncrona com RabbitMQ, além de integração de 3+ fontes de ERP em arquitetura Data Warehouse com Airflow, reduzindo em 40% o tempo de disponibilização de dados.",
+        "Proposta e desenvolvimento de microsserviço Java para geração de PPTX com Apache POI seguindo Clean Architecture, eliminando dependência de API externa paga e gerando autonomia total sobre customização de templates.",
+        "Implementação de monitoramento nas pipelines de ETL com notificações automáticas no Microsoft Teams e abertura de cards de incidente, garantindo rastreabilidade e tratativa ágil de falhas.",
+        "Atuação em ambiente ágil (Scrum) com stack: Java, Spring Boot, Python, JUnit 5, Mockito, RabbitMQ, MySQL, PostgreSQL, Docker, GitHub Actions, Grafana, Airflow e Brifer."
+      ]
+    }
+  ],
+  "educacao": [
+    {
+      "curso": "TECNÓLOGO - ANÁLISE E DESENVOLVIMENTO DE SISTEMAS",
+      "info": "Faculdades São Paulo Tech School - São Paulo, SP | 2024 – 2026",
+      "bullets": [
+        "Lógica de Programação; Algoritmos e Estrutura de Dados; POO; Redes de Computadores; Segurança da Informação e Redes; Computação em Nuvem; Arquitetura de Software e Padrões de Projetos."
+      ]
+    },
+    {
+      "curso": "TÉCNICO MODULAR - INFORMÁTICA",
+      "info": "Fundação Instituto de Educação de Barueri - Barueri, SP | 2022 - 2023",
+      "bullets": [
+        "Lógica de Programação, Introdução a metodologias ágeis, empreendedorismo e estrutura de dados.",
+        "Desenvolvimento de aplicações web utilizando HTML, CSS, JavaScript e Java com Spring Boot.",
+        "Desenvolvimento mobile com Flutter (Dart), contribuindo para a construção de uma solução full stack."
+      ]
+    }
+  ],
+  "habilidades": [
+    "Node.js, TypeScript, JavaScript, APIs REST, Microsserviços, Orientação a Objetos (OOP), Clean Code, SOLID, Arquitetura Limpa, Arquitetura Hexagonal, PostgreSQL, MySQL, MongoDB, Redis, AWS (Lambda, SQS, SNS), Docker, Terraform, RabbitMQ, GitHub, GitLab, GitHub Actions, Jenkins, Grafana, Datadog, Java 17+, Spring Boot, Maven, Hibernate, Apache, JUnit 5, Mockito, Kanban, Scrum, Jira, Inteligência Artificial, Claude Code.",
+    "Linguagens: Português e Inglês."
+  ],
+  "certificacoes": [
+    {
+      "org": "Anthropic - São Paulo, SP | 2026",
+      "items": ["Claude Code in Action"]
+    },
+    {
+      "org": "International Business Machines Corporation (IBM) - São Paulo, SP | 2025",
+      "items": ["Certified Artificial Intelligence Fundamentals"]
+    }
+  ]
+}
