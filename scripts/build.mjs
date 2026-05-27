@@ -102,12 +102,12 @@ function renderHubRow({ slug, empresa, vaga, nivel, match, status }) {
       ? `<a href="cvs/${slug}.html">Baixar CV</a>`
       : `<span class="pending">Em breve</span>`;
   return `      <tr data-status="${status}">
-        <td>${escapeHtml(empresa)}</td>
-        <td>${escapeHtml(vaga)}</td>
-        <td><span class="level">${escapeHtml(nivel)}</span></td>
-        <td><span class="match ${klass}">${match}%</span></td>
-        <td><span class="status-tag ${status}">${statusLabel}</span></td>
-        <td class="action" style="text-align:right">${action}</td>
+        <td data-label="Empresa">${escapeHtml(empresa)}</td>
+        <td data-label="Vaga">${escapeHtml(vaga)}</td>
+        <td data-label="Nível"><span class="level">${escapeHtml(nivel)}</span></td>
+        <td data-label="Match"><span class="match ${klass}">${match}%</span></td>
+        <td data-label="Status"><span class="status-tag ${status}">${statusLabel}</span></td>
+        <td class="action" data-label="CV" style="text-align:right">${action}</td>
       </tr>`;
 }
 

@@ -107,3 +107,56 @@ tbody tr:hover { background: #fafafa; }
   font-size: 9.5pt;
   color: #777;
 }
+@media screen and (max-width: 768px) {
+  .container { padding: 24px 14px 48px; }
+  header.top h1 { font-size: 20pt; }
+  header.top p { font-size: 10.5pt; }
+  .toolbar button { padding: 8px 14px; font-size: 11pt; }
+
+  table, thead, tbody, tr, th, td {
+    display: block;
+    width: 100%;
+  }
+  thead { display: none; }
+  table {
+    background: transparent;
+    box-shadow: none;
+    border-radius: 0;
+    overflow: visible;
+  }
+  tbody tr {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+    padding: 14px 16px;
+    margin-bottom: 12px;
+    border-bottom: none;
+  }
+  tbody tr:hover { background: #fff; }
+  td {
+    border: none;
+    padding: 4px 0;
+    font-size: 10.5pt;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+    text-align: left !important;
+  }
+  td:before {
+    content: attr(data-label);
+    font-weight: 700;
+    color: #555;
+    font-size: 9.5pt;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+    flex-shrink: 0;
+  }
+  td[data-label="Vaga"] {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2px;
+  }
+  td.action { padding-top: 8px; }
+  td.action a, td.action span { width: 100%; text-align: center; }
+}

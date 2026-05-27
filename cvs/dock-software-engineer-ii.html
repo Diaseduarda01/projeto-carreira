@@ -2,6 +2,7 @@
 <html lang="pt-BR">
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Maria Eduarda Dias | Dock Software Engineer II</title>
 <style>
 @page { size: A4; margin: 14mm 16mm; }
@@ -89,6 +90,28 @@ h2 {
 .skills-block ul { margin: 4px 0 0 0; padding-left: 18px; }
 @media print {
   .page { padding: 0; }
+}
+@media screen and (max-width: 768px) {
+  html, body {
+    font-size: 11pt;
+    line-height: 1.45;
+  }
+  .page {
+    max-width: 100%;
+    padding: 16px 14px 32px;
+  }
+  header h1 { font-size: 17pt; }
+  header .role { font-size: 11.5pt; }
+  header .contact, header .links { font-size: 10pt; word-break: break-word; }
+  .entry .row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1px;
+  }
+  .entry .date,
+  .entry .school-info { font-weight: 600; color: #333; }
+  h2 { margin-top: 18px; }
+  .about { text-align: left; }
 }
 
 </style>
