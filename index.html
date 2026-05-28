@@ -109,6 +109,9 @@ tbody tr:hover { background: #fafafa; }
 }
 .status-tag.ready { background: #e8f5ec; color: #0a7d2e; }
 .status-tag.pending { background: #f3f3f3; color: #888; }
+.status-tag.default { background: #e8f0fb; color: #1a56c4; }
+tr.default-cv { background: #f7f9ff; }
+tr.default-cv:hover { background: #eef2fb; }
 .footer {
   margin-top: 24px;
   font-size: 9.5pt;
@@ -196,6 +199,14 @@ tbody tr:hover { background: #fafafa; }
       </tr>
     </thead>
     <tbody>
+      <tr class="default-cv" data-status="ready">
+        <td data-label="Empresa"><strong>—</strong></td>
+        <td data-label="Vaga"><strong>CV Padrão (Geral)</strong></td>
+        <td data-label="Nível"><span class="level">Geral</span></td>
+        <td data-label="Match"><span class="match">—</span></td>
+        <td data-label="Status"><span class="status-tag default">Padrão</span></td>
+        <td class="action" data-label="CV" style="text-align:right"><a href="default/cv-default.pdf" download>Baixar CV</a></td>
+      </tr>
       <tr data-status="ready">
         <td data-label="Empresa">Accenture</td>
         <td data-label="Vaga">Desenvolvedor(a) Backend Node.js: APIs e Microsserviços</td>

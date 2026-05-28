@@ -102,6 +102,9 @@ tbody tr:hover { background: #fafafa; }
 }
 .status-tag.ready { background: #e8f5ec; color: #0a7d2e; }
 .status-tag.pending { background: #f3f3f3; color: #888; }
+.status-tag.default { background: #e8f0fb; color: #1a56c4; }
+tr.default-cv { background: #f7f9ff; }
+tr.default-cv:hover { background: #eef2fb; }
 .footer {
   margin-top: 24px;
   font-size: 9.5pt;
