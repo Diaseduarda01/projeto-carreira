@@ -142,11 +142,12 @@ function buildHub(perfil, allRows, tpl, styles) {
 }
 
 async function main() {
-  const [perfil, pendings, vagasReady, cvTpl, cvCss, hubTpl, hubCss] =
+  const [perfil, pendings, vagasReady, cvDefault, cvTpl, cvCss, hubTpl, hubCss] =
     await Promise.all([
       readJson(join(DATA, 'perfil.json')),
       readJson(join(DATA, 'vagas-pending.json')),
       loadVagas(),
+      readJson(join(DATA, 'cv-default.json')),
       readFile(join(TEMPLATE, 'cv.html'), 'utf8'),
       readFile(join(TEMPLATE, 'cv.css'), 'utf8'),
       readFile(join(TEMPLATE, 'hub.html'), 'utf8'),
@@ -161,6 +162,9 @@ async function main() {
 
   await writeFile(OUT_HUB, buildHub(perfil, allRows, hubTpl, hubCss));
   console.log(`✓ index.html (${allRows.length} vagas)`);
+
+  await writeFile(join(OUT_CVS, 'cv-default.html'), buildCv(perfil, cvDefault, cvTpl, cvCss));
+  console.log('✓ cvs/cv-default.html');
 
   for (const vaga of vagasReady) {
     if (vaga.hub.status !== 'ready') continue;

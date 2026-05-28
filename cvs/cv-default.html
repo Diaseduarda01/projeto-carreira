@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Maria Eduarda Dias | CV Padrão</title>
+<style>
+@page { size: A4; margin: 14mm 16mm; }
+.print-btn {
+  display: block;
+  margin: 0 0 14px auto;
+  background: #1a1a1a;
+  color: #fff;
+  border: none;
+  padding: 10px 18px;
+  font-size: 10.5pt;
+  font-family: inherit;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.print-btn:hover { background: #444; }
+* { box-sizing: border-box; }
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #ffffff;
+  color: #000000;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10.5pt;
+  line-height: 1.35;
+}
+.page {
+  max-width: 210mm;
+  margin: 0 auto;
+  padding: 14mm 16mm;
+}
+header { text-align: center; }
+header h1 {
+  font-size: 18pt;
+  font-weight: 400;
+  margin: 0 0 2px 0;
+}
+header .role {
+  font-size: 12pt;
+  margin-bottom: 6px;
+}
+header .contact, header .links {
+  font-size: 10pt;
+  margin: 2px 0;
+}
+header .links a {
+  color: #000;
+  text-decoration: underline;
+}
+h2 {
+  font-size: 11pt;
+  font-weight: 700;
+  margin: 14px 0 2px 0;
+  padding-bottom: 2px;
+  border-bottom: 1px solid #000;
+  letter-spacing: 0.3px;
+}
+.entry { margin-top: 8px; }
+.entry .row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.entry .company,
+.entry .school {
+  font-size: 8.5pt;
+  font-weight: 700;
+}
+.entry .location,
+.entry .school-info {
+  font-size: 8.5pt;
+  font-weight: 700;
+}
+.entry .position {
+  font-size: 11pt;
+  font-weight: 700;
+}
+.entry .date {
+  font-size: 10pt;
+  font-weight: 700;
+}
+.entry ul {
+  margin: 4px 0 0 0;
+  padding-left: 18px;
+}
+.entry li { margin-bottom: 2px; }
+.about {
+  text-align: justify;
+  margin-top: 6px;
+}
+.skills li, .edu-italic li { font-style: italic; }
+.cert-entry { margin-top: 8px; }
+.cert-entry .org { font-size: 8.5pt; font-weight: 700; }
+.cert-entry ul { margin: 2px 0 0 0; padding-left: 18px; }
+.cert-entry li { font-style: italic; }
+.skills-block { margin-top: 6px; }
+.skills-block .label { font-size: 8.5pt; font-weight: 700; }
+.skills-block ul { margin: 4px 0 0 0; padding-left: 18px; }
+@media print {
+  .page { padding: 0; }
+  .print-btn { display: none; }
+}
+@media screen and (max-width: 768px) {
+  html, body {
+    font-size: 11pt;
+    line-height: 1.45;
+  }
+  .page {
+    max-width: 100%;
+    padding: 16px 14px 32px;
+  }
+  header h1 { font-size: 17pt; }
+  header .role { font-size: 11.5pt; }
+  header .contact, header .links { font-size: 10pt; word-break: break-word; }
+  .entry .row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1px;
+  }
+  .entry .date,
+  .entry .school-info { font-weight: 600; color: #333; }
+  h2 { margin-top: 18px; }
+  .about { text-align: left; }
+  .print-btn { width: 100%; padding: 12px; font-size: 11pt; }
+}
+
+</style>
+</head>
+<body>
+<div class="page">
+
+  <button class="print-btn" type="button" onclick="window.print()">Salvar como PDF</button>
+
+  <header>
+    <h1>Maria Eduarda Dias</h1>
+    <div class="role">Desenvolvedora Back-end | Java, Spring Boot, Node.js, TypeScript</div>
+    <div class="contact">Brasil, São Paulo • m.eduardadasilvadias4@gmail.com • (11) 96792-2547</div>
+    <div class="links">
+      <a href="https://eduarda-dias-portifolio.vercel.app/">Portfólio</a> •
+      <a href="https://github.com/diaseduarda01">GitHub</a> •
+      <a href="https://www.linkedin.com/in/eduarda-dias-723a7820b/">Linkedin</a>
+    </div>
+  </header>
+
+  <section>
+    <h2>SOBRE MIM</h2>
+    <p class="about">
+      Desenvolvedora back-end com experiência corporativa em Java/Spring Boot e Node.js/TypeScript, atuando na construção de APIs REST, microsserviços, pipelines ETL e mensageria assíncrona com RabbitMQ. Propus e desenvolvi microsserviço próprio seguindo Clean Architecture que eliminou dependência de API externa paga. Certificada em IA (Anthropic Claude Code in Action e IBM AI Fundamentals), com uso intensivo de IA no fluxo de engenharia. Cursando último ano de Tecnólogo em ADS.
+    </p>
+  </section>
+
+  <section>
+    <h2>EXPERIÊNCIA PROFISSIONAL</h2>
+
+    <div class="entry">
+      <div class="row">
+        <span class="company">São Paulo Tech School</span>
+        <span class="location">São Paulo, BR</span>
+      </div>
+      <div class="row">
+        <span class="position">Monitora Acadêmica I - Lógica Computacional</span>
+        <span class="date">01/2026 - Atual</span>
+      </div>
+      <ul>
+        <li>Apoio ao professor na elaboração de listas, atividades avaliativas e provas, com suporte direto aos alunos em aula para resolução de exercícios e esclarecimento de dúvidas conceituais.</li>
+        <li>Desenvolvimento de comunicação didática adaptada a diferentes perfis de aprendizagem, estimulando o pensamento analítico e a autonomia dos estudantes na resolução de problemas.</li>
+      </ul>
+    </div>
+
+    <div class="entry">
+      <div class="row">
+        <span class="company">Sptech Consulting</span>
+        <span class="location">São Paulo, BR</span>
+      </div>
+      <div class="row">
+        <span class="position">Desenvolvedora Back-end</span>
+        <span class="date">02/2025 - Atual</span>
+      </div>
+      <ul>
+        <li>Desenvolvimento e manutenção de APIs REST em Java e Spring Boot, incluindo criação de novas funcionalidades, sustentação e suporte em produção, aplicando Clean Code, SOLID e Orientação a Objetos (OOP).</li>
+        <li>Construção de microsserviços, pipelines ETL, processos batch e mensageria assíncrona com RabbitMQ, além de integração de 3+ fontes de ERP em arquitetura Data Warehouse com Airflow, reduzindo em 40% o tempo de disponibilização de dados.</li>
+        <li>Proposta e desenvolvimento de microsserviço Java para geração de PPTX com Apache POI seguindo Clean Architecture, eliminando dependência de API externa paga e gerando autonomia total sobre customização de templates.</li>
+        <li>Implementação de monitoramento nas pipelines de ETL com notificações automáticas no Microsoft Teams e abertura de cards de incidente, garantindo rastreabilidade e tratativa ágil de falhas.</li>
+        <li>Atuação em ambiente ágil (Scrum) com stack: Java, Spring Boot, Python, JUnit 5, Mockito, RabbitMQ, MySQL, PostgreSQL, Docker, GitHub Actions, Grafana, Airflow e Brifer.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <h2>EDUCAÇÃO</h2>
+
+    <div class="entry">
+      <div class="row">
+        <span class="school">TECNÓLOGO - ANÁLISE E DESENVOLVIMENTO DE SISTEMAS</span>
+        <span class="school-info">Faculdades São Paulo Tech School - São Paulo, SP | 2024 – 2026</span>
+      </div>
+      <ul class="edu-italic">
+        <li>Lógica de Programação; Algoritmos e Estrutura de Dados; POO; Redes de Computadores; Segurança da Informação e Redes; Computação em Nuvem; Arquitetura de Software e Padrões de Projetos.</li>
+      </ul>
+    </div>
+
+    <div class="entry">
+      <div class="row">
+        <span class="school">TÉCNICO MODULAR - INFORMÁTICA</span>
+        <span class="school-info">Fundação Instituto de Educação de Barueri - Barueri, SP | 2022 - 2023</span>
+      </div>
+      <ul class="edu-italic">
+        <li>Lógica de Programação, Introdução a metodologias ágeis, empreendedorismo e estrutura de dados.</li>
+        <li>Desenvolvimento de aplicações web utilizando HTML, CSS, JavaScript e Java com Spring Boot.</li>
+        <li>Desenvolvimento mobile com Flutter (Dart), contribuindo para a construção de uma solução full stack.</li>
+      </ul>
+    </div>
+
+    <div class="skills-block">
+      <span class="label">Habilidades e conhecimentos</span>
+      <ul>
+        <li>Node.js, TypeScript, JavaScript, APIs REST, Microsserviços, Orientação a Objetos (OOP), Clean Code, SOLID, Arquitetura Limpa, Arquitetura Hexagonal, PostgreSQL, MySQL, MongoDB, Redis, AWS (Lambda, SQS, SNS), Docker, Terraform, RabbitMQ, GitHub, GitLab, GitHub Actions, Jenkins, Grafana, Datadog, Java 17+, Spring Boot, Maven, Hibernate, Apache, JUnit 5, Mockito, Kanban, Scrum, Jira, Inteligência Artificial, Claude Code.</li>
+        <li>Linguagens: Português e Inglês.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <h2>CERTIFICAÇÃO</h2>
+
+    <div class="cert-entry">
+      <span class="org">Anthropic - São Paulo, SP | 2026</span>
+      <ul>
+        <li>Claude Code in Action</li>
+      </ul>
+    </div>
+
+    <div class="cert-entry">
+      <span class="org">International Business Machines Corporation (IBM) - São Paulo, SP | 2025</span>
+      <ul>
+        <li>Certified Artificial Intelligence Fundamentals</li>
+      </ul>
+    </div>
+  </section>
+
+</div>
+</body>
+</html>

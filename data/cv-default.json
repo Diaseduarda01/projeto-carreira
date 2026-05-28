@@ -1,0 +1,7 @@
+{
+  "cv": {
+    "titulo": "Maria Eduarda Dias | CV Padrão",
+    "role": "Desenvolvedora Back-end | Java, Spring Boot, Node.js, TypeScript",
+    "sobre": "Desenvolvedora back-end com experiência corporativa em Java/Spring Boot e Node.js/TypeScript, atuando na construção de APIs REST, microsserviços, pipelines ETL e mensageria assíncrona com RabbitMQ. Propus e desenvolvi microsserviço próprio seguindo Clean Architecture que eliminou dependência de API externa paga. Certificada em IA (Anthropic Claude Code in Action e IBM AI Fundamentals), com uso intensivo de IA no fluxo de engenharia. Cursando último ano de Tecnólogo em ADS."
+  }
+}
